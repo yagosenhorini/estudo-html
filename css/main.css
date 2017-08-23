@@ -5,21 +5,18 @@
 
 body{
     font-size: 16px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: "Liberation Sans", sans-serif;
     background: #f3f3f3;
-}
-
-img{
-    width: 170px;
-    height: 170px;
-    display: block;
-    margin: 5px;
 }
 
 #nav{
     background-color: white;
     border-bottom: solid 1px black;
     height: 45px;
+    position: fixed;
+    width: 100%;
+    top:0;
+
 }
 
 #area{
@@ -65,14 +62,16 @@ a:active{
 }
 
 .bloco-postagem{
-    padding: 10px;
-    margin: auto 0;
+    width: 720px;
+    margin: 0 auto;
+    padding:5px;
+    margin-bottom: 5px;
 }
 
 .postagem{
-    border:1px solid black;
-    width: 600px;
-    height: auto;
+    background: #fff;
+    width: 720px;
+    margin: 55px auto 10px auto;
 }
 
 .titulo-postagem{
@@ -81,6 +80,28 @@ a:active{
 }
 
 .texto-postagem{
-    padding: 3px 5px 3px 5px;
     font-size: 16px;
+    text-align: justify;
+    margin:0px 5px 10px 0px ;
+}
+
+.data-postagem{
+    display: block;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-bottom:10px;
+    border-bottom: 1px solid black;
+}
+
+.imagem{
+    float: left;
+    margin: 0px 10px 10px 5px;
+}
+
+.postado{
+    border-left:5px solid #f8f8f8;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    display: block;
 }
